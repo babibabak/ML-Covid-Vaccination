@@ -26,3 +26,26 @@ The dataset (`country_vaccinations.csv`) contains global COVID-19 vaccination da
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/covid-vaccination-prediction.git
+2. Install dependencies:
+   '''bash
+pip install -r requirements.txt
+
+3.Run the Jupyter Notebook:
+   '''bash
+jupyter notebook Project1.ipynb
+
+## Usage
+-Load and preprocess the dataset.
+-Perform EDA to understand vaccination trends.
+-Train the MLPClassifier model.
+-Evaluate the model using accuracy metrics.
+-Save the trained model using joblib.
+
+## Results
+-Training Accuracy: 62.63%
+-Testing Accuracy: 45.07%
+
+## Future Improvements
+-Experiment with additional models (e.g., RandomForest, XGBoost).
+-Improve feature engineering and handle missing data more effectively.
+-Enhance model performance through hyperparameter tuning.
